@@ -8,11 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class SpringBootAwsExampleApplication {
 	
-//	@GetMapping("/")
-//	public String home() {
-//		return "welcome to aws deployed";
-//	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootAwsExampleApplication.class, args);
 	}
